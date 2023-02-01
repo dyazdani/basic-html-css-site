@@ -2,3 +2,12 @@ html {
     font-size: 10px;
     font-family: 'Cormorant', serif;
   }
+
+  h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Monsieur La Doulaise', cursive;
+    margin: 0;
+    padding: 20px 0;
+    color: #191310;
+  }
