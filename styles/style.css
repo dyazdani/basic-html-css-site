@@ -1,6 +1,45 @@
 html {
   font-family: "Cormorant Garamond", Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
 }
+
+/* Navigation Bar */
+
+nav {
+  height
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding-inline-start: unset;
+  padding: 10px;
+}
+
+
+/* Navigation Bar Link Behavior */
+
+nav a {
+  text-decoration: none;
+  background: #554338;
+  padding: 7px;
+  color:#EFEBE4;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background: none;
+  color:#554338;
+  font-size: 1.25em;
+  font-weight: bolder;
+}
+
+nav a:active {
+  color: rgb(237, 42, 42);
+}
+
+
 
 h1 {
   font-size: 60px;
@@ -15,7 +54,6 @@ body {
   width: 600px;
   margin: 0 auto;
   background-color: #F4EAE1;
-  padding: 0 20px 20px 20px;
   border: 5px solid black;
   color: black;
 }
