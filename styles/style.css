@@ -4,10 +4,6 @@ html {
 }
 
 /* Navigation Bar */
-
-nav {
-  height
-}
 nav ul {
   list-style-type: none;
   display: flex;
@@ -16,7 +12,6 @@ nav ul {
   padding-inline-start: unset;
   padding: 10px;
 }
-
 
 /* Navigation Bar Link Behavior */
 
