@@ -6,58 +6,45 @@ html {
 }
 
 body {
-  /* Grid Details */
+  /* Grid Layout */
   display: grid;
   grid-template: repeat(8, auto) 1fr / repeat(5, 1fr);
   justify-items: center;
   align-items: start;
   gap: 20px;
 
-  /* Other declarations */
+  /* Other Declarations */
   margin: 20px;
 }
 
+
+/* Header */
 header {
+  /* Grid Location */
   grid-column: 1 / 6;
   grid-row: 1 / 2;
 }
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Monsieur La Doulaise', cursive;
+  margin: 0;
+  padding: 20px 0;
+  color: #191310;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
 
 /* Navigation Bar */
 nav {
+  /* Grid Location */
   grid-column: 1 / 6;
   grid-row: 2 / 3;
-}
-
-main {
-  grid-column: 2 / 5;
-  grid-row: 3 / 8;
-}
-
-footer {
-  grid-column: 1 / 6;
-  grid-row: 8 / 9;
-  display: grid;
-  grid-template: auto auto auto / auto 15vw auto;
-}
-
-.location {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-.hours {
-  grid-column: 3 / 4;
-  grid-row: 1 / 4;
-}
-
-.phone {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-}
-
-.email {
-  grid-column: 1 / 2;
-  grid-row: 3 / 4;
 }
 
 nav ul {
@@ -68,8 +55,7 @@ nav ul {
   padding: 10px;
 }
 
-/* Nav Link Behavior */
-
+/* NavBar Link Behavior */
 nav a {
   text-decoration: none;
   background: #554338;
@@ -89,58 +75,52 @@ nav a:active {
   color: rgb(237, 42, 42);
 }
 
+
 /* Main Content */
-ul {
-  list-style-type: none;
+main {
+  /* Grid Location */
+  grid-column: 2 / 5;
+  grid-row: 3 / 8;
 }
 
 h2 {
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+}
 
 
-/* .drinks {
+/* Footer */
+footer {
+/* Footer Grid Layout */
+  grid-column: 1 / 6;
+  grid-row: 8 / 9;
+  display: grid;
+  grid-template: auto auto auto / auto 15vw auto;
+}
+
+.location {
+/* Grid Location */
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.hours {
+  /* Grid Location */
   grid-column: 3 / 4;
+  grid-row: 1 / 4;
+}
+
+.phone {
+  /* Grid Location */
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.email {
+  /* Grid Location */
+  grid-column: 1 / 2;
   grid-row: 3 / 4;
-  text-align: center;
-}
-
-.cocktails {
-  grid-column: 2 / 5;
-  grid-row: 4 / 5;
-  text-align: center;
-}
-
-.punch {
-  grid-column: 2 / 5;
-  grid-row: 5 / 6;
-  text-align: center;
-}
-
-.wine {
-  grid-column: 2 / 5;
-  grid-row: 6 / 7;
-  text-align: center;
-}
-
-.beer_cider {
-  grid-column: 2 / 5;
-  grid-row: 7 / 8;
-  text-align: center;
-} */
-
-
-h1 {
-  font-size: 60px;
-  text-align: center;
-  font-family: 'Monsieur La Doulaise', cursive;
-  margin: 0;
-  padding: 20px 0;
-  color: #191310;
-}
-
-img {
-  display: block;
-  margin: 0 auto;
 }
