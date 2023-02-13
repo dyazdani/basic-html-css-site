@@ -3,6 +3,7 @@ html {
   font-size: 20px;
   box-sizing: border-box;
   background: #E8CDB5;
+  text-align: center;
 }
 
 body {
@@ -98,19 +99,13 @@ footer {
   grid-column: 1 / 6;
   grid-row: 8 / 9;
   display: grid;
-  grid-template: auto auto auto / auto 15vw auto;
+  grid-template: auto auto auto / auto 10vw auto;
 }
 
 .location {
 /* Grid Location */
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-}
-
-.hours {
-  /* Grid Location */
-  grid-column: 3 / 4;
-  grid-row: 1 / 4;
 }
 
 .phone {
@@ -123,4 +118,18 @@ footer {
   /* Grid Location */
   grid-column: 1 / 2;
   grid-row: 3 / 4;
+}
+
+.hours {
+  /* Grid Location */
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
 }
