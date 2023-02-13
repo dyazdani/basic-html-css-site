@@ -15,7 +15,6 @@ body {
   display: grid;
   grid-template: repeat(8, auto) 1fr / repeat(5, 1fr);
   justify-items: center;
-  align-items: start;
 }
 
 body * {
@@ -70,6 +69,7 @@ nav ul {
   /* Other Declarations */
   padding: 0 50vw;
   background: #554338;
+  width: 100vw;
   margin-top: 0;
 }
 
