@@ -12,29 +12,33 @@ body {
   grid-template: repeat(8, auto) 1fr / repeat(5, 1fr);
   justify-items: center;
   align-items: start;
-  gap: 20px;
 }
 
+body * {
+  margin: .3rem;
+  padding: .2rem;
+}
 
 /* Header */
 header {
   /* Grid Location */
   grid-column: 1 / 6;
   grid-row: 1 / 2;
+
+  /* Other Declarartions */
+
 }
 
 h1 {
   font-size: 3rem;
   text-align: center;
   font-family: 'Monsieur La Doulaise', cursive;
-  margin: 0;
-  padding: 20px 0;
   color: #191310;
 }
 
 img {
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 
 
