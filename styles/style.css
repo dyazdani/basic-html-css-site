@@ -50,29 +50,33 @@ nav {
   /* Grid Location */
   grid-column: 1 / 6;
   grid-row: 2 / 3;
+
+  /* Other Declarations */
+  font-size: 1rem;
 }
 
 nav ul {
+  /* Flexbox Container Layout */
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap; 
   justify-content: space-around;
-  padding-inline-start: unset;
-  padding: 10px;
+
+  /* Other Declarations */
+  padding: 0 50vw;
+  background: #554338;
 }
 
 /* NavBar Link Behavior */
 nav a {
   text-decoration: none;
-  background: #554338;
-  padding: 7px;
+  padding: .5rem;
+  margin: 0;
   color:#EFEBE4;
-  border-radius: 5px;
 }
 
 nav a:hover {
-  background: none;
-  color:#554338;
-  font-weight: bolder;
+  background: #E8CDB5;
+  color:#191310;
 }
 
 nav a:active {
