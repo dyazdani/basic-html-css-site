@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 3rem;
   text-align: center;
   font-family: 'Monsieur La Doulaise', cursive;
   margin: 0;
@@ -68,7 +68,6 @@ nav a {
 nav a:hover {
   background: none;
   color:#554338;
-  font-size: 1.25em;
   font-weight: bolder;
 }
 
