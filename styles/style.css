@@ -76,7 +76,7 @@ nav ul {
   margin: 0;
 
   /* Animation */
-  animation: 2s ease-in-out 1 normal forwards running extend;
+  animation:  extend 2s ease-in-out 1 normal forwards running;
 }
 
 @keyframes extend {
@@ -93,9 +93,20 @@ nav a {
   text-decoration: none;
   padding: .75rem;
   margin: 0;
-  color:#EFEBE4;
+  color:#554338;
+
+  /* Animation */
+  animation: fade-in .45s ease-in .45s normal forwards;
 }
 
+@keyframes fade-in {
+  from {
+    color: #554338;
+  }
+  to {
+    color: #E8CDB5;
+  }
+}
 nav a:hover {
   background: #E8CDB5;
   color:#191310;
