@@ -70,11 +70,22 @@ nav ul {
   justify-content: space-around;
 
   /* Other Declarations */
-  padding: 0 50vw;
+  padding: 0;
   background: #554338;
-  width: 100vw;
   height: 2.2rem;
   margin: 0;
+
+  /* Animation */
+  animation: 2s ease-in-out 1 normal forwards running extend;
+}
+
+@keyframes extend {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0 50vw;
+  }
 }
 
 /* NavBar Link Behavior */
