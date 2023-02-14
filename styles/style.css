@@ -178,3 +178,9 @@ td {
   }
 }
 
+
+@media screen and (max-width: 425px) {
+  nav ul {
+    display: none;
+  }
+}
