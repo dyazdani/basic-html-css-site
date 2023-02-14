@@ -95,6 +95,9 @@ nav a {
   margin: 0;
   color:#554338;
 
+  /* Transition */
+  transition: font-size .5s;
+
   /* Animation */
   animation: fade-in .45s ease-in .45s normal forwards;
 }
@@ -107,10 +110,14 @@ nav a {
     color: #E8CDB5;
   }
 }
+
 nav a:hover {
   background: #a19785;
   color:#191310;
   padding: .5rem;
+  font-size: 1.2rem;
+  border: 1px solid #191310;
+  box-shadow: 5px 5px 5px black;
 }
 
 nav a:active {
