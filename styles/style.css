@@ -73,7 +73,8 @@ nav ul {
   padding: 0 50vw;
   background: #554338;
   width: 100vw;
-  margin-top: 0;
+  height: 2.2rem;
+  margin: 0;
 }
 
 /* NavBar Link Behavior */
@@ -180,7 +181,11 @@ td {
 
 
 @media screen and (max-width: 425px) {
-  nav ul {
+  nav ul li a {
     display: none;
+  }
+
+  nav {
+    height: 2.2rem;
   }
 }
