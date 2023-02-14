@@ -108,8 +108,9 @@ nav a {
   }
 }
 nav a:hover {
-  background: #E8CDB5;
+  background: #a19785;
   color:#191310;
+  padding: .5rem;
 }
 
 nav a:active {
