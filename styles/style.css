@@ -169,7 +169,7 @@ footer {
   grid-template: auto auto auto / auto 10vw auto;
 }
 
-  footer * {
+footer * {
     margin: 0;
 }
 
