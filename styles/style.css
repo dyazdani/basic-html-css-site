@@ -141,12 +141,12 @@ main h3 {
   margin-bottom: .5rem;
 }
 
-.cocktails h4, .punch h4 {
+#cocktails h4, #punch h4 {
   margin-top: 1rem;
   margin-bottom: 0;
 }
 
-.cocktails, .punch  {
+#cocktails, #punch  {
   margin-bottom: .9rem;
 }
 
@@ -173,25 +173,25 @@ footer * {
     margin: 0;
 }
 
-.location {
+#location {
 /* Grid Location */
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 
-.phone {
+#phone {
   /* Grid Location */
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
 
-.email {
+#email {
   /* Grid Location */
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
 
-.hours {
+#hours {
   /* Grid Location */
   grid-column: 3 / 4;
   grid-row: 1 / 4;
