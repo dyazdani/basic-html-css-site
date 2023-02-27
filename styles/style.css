@@ -170,11 +170,11 @@ footer {
   grid-row: 8 / 9;
   display: grid;
   grid-template: auto auto auto / auto 10vw auto;
+  
+  /* --- Other Declarations --- */
+  margin: .5rem 0;
 }
 
-footer * {
-    margin: 0;
-}
 
 #location {
 /* --- Grid Location --- */
@@ -207,6 +207,7 @@ th {
 td {
   text-align: right;
 }
+
 
 
 /* ---------- Media Queries ---------- */
