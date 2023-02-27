@@ -51,24 +51,10 @@ nav {
 
   /* --- Other Declarations --- */
   font-size: 1rem;
-  margin-top: 0;
-  padding-top: 0;
   position: sticky;
   top: 0;
-}
-
-nav ul {
-  /* --- Flexbox Container Layout --- */
-  display: flex;
-  flex-flow: row nowrap; 
-  justify-content: space-around;
-
-  /* --- Other Declarations --- */
-  padding: 0;
   background: #554338;
-  height: 2.2rem;
-  margin: 0;
-
+  border-radius: 5px;
 
   /* --- Animation --- */
   animation:  extend 2s ease-in-out 1 normal forwards running;
@@ -76,50 +62,51 @@ nav ul {
 
 @keyframes extend {
   from {
-    padding: 0;
+    width: 0;
   }
   to {
-    padding: 0 50vw;
+    width: 100%;
   }
 }
+
+nav menu {
+  /* --- Flexbox Container Layout --- */
+  display: flex;
+  flex-flow: row nowrap; 
+  justify-content: space-evenly;
+  padding: 0;
+  margin: .5rem 0;
+
+  /* --- Other Declarations --- */
+
+}
+
+
 
 
 /* ----- NavBar Link Behavior ----- */
 nav a {
   text-decoration: none;
-  padding: .75rem;
-  margin: 0;
-  color:#554338;
+  color:#E8CDB5;
+  padding: 0 .25rem;
+  border-radius: 5px;
 
 
   /* --- Transition --- */
   transition: font-size .5s;
 
-
-  /* --- Animation --- */
-  animation: fade-in .45s ease-in .45s normal forwards;
-}
-
-@keyframes fade-in {
-  from {
-    color: #554338;
-  }
-  to {
-    color: #E8CDB5;
-  }
 }
 
 nav a:hover {
   background: #a19785;
   color:#191310;
-  padding: .5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   border: 1px solid #191310;
   box-shadow: 5px 5px 5px black;
 }
 
 nav a:active {
-  color: rgb(237, 42, 42);
+  color: rgb(96, 143, 67);
 }
 
 
