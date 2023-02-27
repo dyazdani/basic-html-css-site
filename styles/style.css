@@ -134,7 +134,10 @@ h2 {
   padding-top: .5rem;
   margin-top: 0;
   border-radius: 5px;
-
+  background: linear-gradient(
+    132deg, 
+    rgba(163, 178, 149, 0.75) 0.00%, 
+    rgba(84, 67, 56, 0.5) 100.00%);
 }
 
 h3 {
