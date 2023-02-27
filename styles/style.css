@@ -130,13 +130,14 @@ h2 {
   background: #a19785;
   font-family: 'Monsieur La Doulaise', cursive;
   color: #191310;
-  font-size: 2rem;
+  font-size: 2.2rem;
   padding-top: .5rem;
   margin-top: 0;
 }
 
 h3 {
   margin: 0;
+  font-size: 1.2rem;
   text-decoration: underline;
 }
 
@@ -175,7 +176,6 @@ footer {
   margin: .5rem 0;
 }
 
-
 #location {
 /* --- Grid Location --- */
   grid-column: 1 / 2;
@@ -200,6 +200,7 @@ footer {
   grid-row: 1 / 4;
 }
 
+
 th {
   text-align: left;
 }
@@ -207,6 +208,7 @@ th {
 td {
   text-align: right;
 }
+
 
 
 
