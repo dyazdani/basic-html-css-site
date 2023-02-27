@@ -36,11 +36,12 @@ h1 {
   font-family: 'Monsieur La Doulaise', cursive;
   color: #191310;
   margin-left: .5rem;
-  padding-top: 2.25rem;
+  padding-top: 1.4rem;
+  line-height: 1rem;
 }
 
 img {
-  margin: auto;
+  margin: 0 0 1.5rem 0;
 }
 
 
