@@ -155,6 +155,10 @@ dd {
   margin-bottom: .5rem;
 }
 
+.tilde {
+  font-size: 2rem;
+}
+
 
 /* ---------- Footer ---------- */
 footer {
