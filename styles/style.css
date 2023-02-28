@@ -211,6 +211,9 @@ footer {
   grid-row: 1 / 4;
 }
 
+table {
+  margin: auto;
+}
 
 th {
   text-align: left;
