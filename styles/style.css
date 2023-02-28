@@ -242,9 +242,13 @@ caption {
   }
 
   /* ----- Footer ----- */
-  footer{
+  footer {
     display: flex;
     flex-flow: column wrap;
+  }
+
+  footer section {
+    margin-bottom: 1rem;
   }
     
 }
