@@ -214,10 +214,11 @@ td {
   text-align: right;
 }
 
-thead {
+caption {
   font-size: 1.2rem;
   font-weight: bold;
   text-decoration: underline;
+  caption-side: top;
 }
 
 
