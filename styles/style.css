@@ -228,15 +228,7 @@ caption {
 }
 
 
-/* ---------- Media Queries ---------- */
-
-/* --- For Mobile and Tablet Devices --- */
-@media screen and (max-width: 800px) {
-
-}
-
-
-/* --- For Mobile Devices --- */
+/* ---------- Media Query for Mobile ---------- */
 @media screen and (max-width: 600px) {
   nav ul {
     justify-content: center;
