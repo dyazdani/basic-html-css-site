@@ -122,7 +122,8 @@ main {
 /* --- Other Declarations--- */
 border: 7px solid #554338;
 border-radius: 15px;
-background: rgba(161, 151, 133, 0.25)
+background: rgba(161, 151, 133, 0.25);
+margin-bottom: 1rem;
 }
 
 h2 {
