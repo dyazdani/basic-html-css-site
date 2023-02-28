@@ -238,4 +238,10 @@ caption {
     padding: 0;
   }
 
+  /* ----- Footer ----- */
+  footer{
+    display: flex;
+    flex-flow: column wrap;
+  }
+    
 }
