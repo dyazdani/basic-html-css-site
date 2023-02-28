@@ -100,7 +100,7 @@ nav a {
 }
 
 nav a:hover {
-  background: #a19785;
+  background: #878674;
   color:#191310;
   font-size: 1.1rem;
   border: 1px solid #191310;
@@ -108,7 +108,7 @@ nav a:hover {
 }
 
 nav a:active {
-  color: rgb(96, 143, 67);
+  color: rgb(255, 250, 161)
 }
 
 
@@ -136,8 +136,8 @@ h2 {
   border-radius: 5px;
   background: linear-gradient(
     132deg, 
-    rgba(163, 178, 149, 0.75) 0.00%, 
-    rgba(84, 67, 56, 0.5) 100.00%);
+    rgba(85, 67, 56, 0.5) 0.00%, 
+    rgba(135, 134, 116, 0.5) 100.00%);
 }
 
 h3 {
