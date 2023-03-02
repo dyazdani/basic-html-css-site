@@ -1,0 +1,254 @@
+/* ---------- General Styles ---------- */
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+html {
+  font-family: "Cormorant Garamond", Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  background: #E8CDB5;
+  text-align: center;
+}
+
+body {
+  /* --- Grid Layout --- */
+  display: grid;
+  grid-template: repeat(8, auto) 1fr / repeat(5, 1fr);
+  justify-items: center;
+  row-gap: .5rem;
+}
+
+
+/* ---------- Header ---------- */
+header {
+  /* --- Grid Location --- */
+  grid-column: 1 / 6;
+  grid-row: 1 / 2;
+
+  /* --- Other Declaractions --- */
+  display: flex;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Monsieur La Doulaise', cursive;
+  color: #191310;
+  margin-left: .5rem;
+  padding-top: 1.4rem;
+  line-height: 1rem;
+}
+
+img {
+  margin: 0 0 1.5rem 0;
+}
+
+
+/* ---------- Navigation Bar ---------- */
+nav {
+  /* --- Grid Location --- */
+  grid-column: 1 / 6;
+  grid-row: 2 / 3;
+
+  /* --- Other Declarations --- */
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  background: #554338;
+  border-radius: 5px;
+
+  /* --- Animation --- */
+  animation:  extend 2s ease-in-out 1 normal forwards running;
+}
+
+@keyframes extend {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+nav menu {
+  /* --- Flexbox Container Layout --- */
+  display: flex;
+  flex-flow: row nowrap; 
+  justify-content: space-evenly;
+  padding: 0;
+  margin: .5rem 0;
+
+  /* --- Other Declarations --- */
+
+}
+
+
+
+
+/* ----- NavBar Link Behavior ----- */
+nav a {
+  text-decoration: none;
+  color:#E8CDB5;
+  padding: 0 .25rem;
+  border-radius: 5px;
+
+
+  /* --- Transition --- */
+  transition: font-size .5s;
+
+}
+
+nav a:hover {
+  background: #878674;
+  color:#191310;
+  font-size: 1.1rem;
+  border: 1px solid #191310;
+  box-shadow: 5px 5px 5px black;
+}
+
+nav a:active {
+  color: rgb(255, 250, 161)
+}
+
+
+
+/* --------- Main Content ---------- */
+main {
+  /* --- Grid Location --- */
+  grid-column: 2 / 5;
+  grid-row: 3 / 8;
+
+/* --- Other Declarations--- */
+border: 7px solid #554338;
+border-radius: 15px;
+background: rgba(161, 151, 133, 0.25);
+margin-bottom: 1rem;
+padding: .75rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-family: 'Monsieur La Doulaise', cursive;
+  color: #191310;
+  font-size: 2.2rem;
+  padding-top: .5rem;
+  margin-top: 0;
+  border-radius: 5px;
+  background: linear-gradient(
+    132deg, 
+    rgba(85, 67, 56, 0.5) 0.00%, 
+    rgba(135, 134, 116, 0.5) 100.00%);
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+h4 {
+  margin: .5rem;
+  text-decoration: underline dotted;
+}
+
+dl {
+  margin: .5rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 1rem 0;
+}
+
+.tilde {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+/* ---------- Footer ---------- */
+footer {
+/* --- Footer Grid Layout --- */
+  grid-column: 1 / 6;
+  grid-row: 8 / 9;
+  display: grid;
+  grid-template: auto auto auto / auto 10vw auto;
+  
+  /* --- Other Declarations --- */
+  margin: .5rem 0;
+  padding: 1.5rem;
+  background: rgba(135, 134, 116, 0.2);
+  border: 5px solid #554338;
+  border-radius: 50px;
+}
+
+#location {
+/* --- Grid Location --- */
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+#phone {
+  /* --- Grid Location --- */
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+#email {
+  /* --- Grid Location --- */
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+}
+
+#hours {
+  /* --- Grid Location --- */
+  grid-column: 3 / 4;
+  grid-row: 1 / 4;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
+}
+
+caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  caption-side: top;
+}
+
+
+/* ---------- Media Query for Mobile ---------- */
+@media screen and (max-width: 600px) {
+  nav ul {
+    justify-content: center;
+  }
+  
+  nav a {
+    padding: 0;
+  }
+
+  /* ----- Footer ----- */
+  footer {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  footer section {
+    margin-bottom: 1rem;
+  }
+    
+}

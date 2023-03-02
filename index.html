@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
+    
+    <link href="styles/style.css" rel="stylesheet" />
+
+    <title>Drinks - The Lighthouse</title>
+  </head>
+  <body>
+    <header>
+      <img class="logo"
+        srcset="images/lighthouse-logo-smallest.jpeg 26w, images/lighthouse-logo-smaller.jpeg 52w"
+        sizes="(max-width: 600px) 26px, 52px"
+        src="images/lighthouse-logo-smaller.jpeg"
+        alt="The Lighthouse logo - a vintage print of a lighthouse">
+      <h1>The Lighthouse</h1>
+    </header>
+      <nav>
+        <menu>
+          <li><a href="">Home</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Reservations</a></li>
+          <li><a href="">Events</a></li>
+          <li><a href="#phone">Contact</a></li>
+        </menu>
+      </nav>
+    <main>
+      <h2>Drinks</h2>
+      <section id="cocktails">
+        <h3>Cocktails</h3>
+
+        <dl>
+          <dt>Lighthouse Old-Fashioned</dt>
+          <dd>WhistlePig rye, Angostura bitters, Demerara sugar, sea spray, house brandied cherry -- $10</dd>
+        
+          <dt>Sealegs</dt>
+          <dd>Barrel-aged navy strength gin, Luxardo, star anise & clove bitters, kelp flower -- $13</dd>
+          
+          <dt>Wavefarer</dt>
+          <dd>Rhum agricole, house blood orange shrub, orange slice -- $12</dd>
+          
+          <dt>The Leviathan</dt>
+          <dd>New England vodka, grenadine, muddled papaya, sparkling water, pineapple spear -- $12 </dd>
+          
+          <dt>Starboard</dt>
+          <dd>London dry gin, amaro, starfruit, dry ginger ale -- $12 </dd>
+        </dl>
+      </section>
+      <div class="tilde">~</div>
+        <section id="punch">
+          <h3>Punch</h3>
+
+          <dl>
+            <dt>Planter's Punch</dt>
+            <dd>Rhum, sweet vermouth, pineapple -- $8</dd>
+
+            <dt>Giddeon's Revival</dt>
+            <dd>Spiced rhum, ginger beer, limeade -- $9</dd>
+
+            <dt>Souza's Punch</dt>
+            <dd>Cachaça, guava, lemon  -- $9</dd>
+
+            <dt>Waltham's Redemption</dt>
+            <dd>High proof Bourbon, cinnamon, grapefruit -- $10</dd>
+          </dl>
+        </section>
+        <div class="tilde">~</div>
+        <section id="wine">
+          <h3>Wine</h3>
+          <section id="red_wine">
+            <h4>Red</h4>
+            <dl>
+              <dt>2018 Istine 'Vigna Cavarchione'</dt><dd>glass $8 / bottle $40</dd>
+              <dt>2017 Grupo Olarra Bodegas Ondarre Mayor de Ondarre Reserva</dt><dd>glass $9 / bottle $45</dd>
+              <dt>2016 Roth Heritage Red</dt><dd>glass $10 / bottle $50</dd>
+              <dt>Les Vignobles Saint-Didier Parnac 2018 Château du Perry</dt><dd>glass $11 / bottle $55</dd>
+            </dl>
+          </section>
+          <section id="white_wine">
+            <h4>White</h4>
+            <dl>
+            <dt>2018 Silver Tuna Pinot Grigio</dt><dd>glass $8 / bottle $40</dd>
+            <dt>2021 Southern Right Sauvignon Blanc</dt><dd>glass $10 / bottle $50</dd>
+            <dt>2021 Shafer 'Red Shoulder Ranch' Chardonnay</dt><dd>glass $11 / bottle $55</dd>
+          </dl>
+          </section>
+          <section id="sparkling_wine">
+            <h4>Sparkling</h4>
+            <dl>
+              <dt>Charles Heidsieck Brut Reserve</dt> <dd>glass $11 / bottle $55</dd>
+              <dt>'J' Vineyards Brut Rosé</dt><dd>glass $12 / bottle $60</dd>
+            </dl>
+          </section>
+        </section>
+        <div class="tilde">~</div>
+        <section id="beer_cider">
+          <h3>Beer & Cider</h3>
+          <section id="beer">
+            <h4>Beer</h4>
+            <dl>
+              <dt>Adams Craft Lager</dt><dd>5% abv -- $8</dd>
+              <dt>Dogfish Head 60-Minute IPA</dt><dd>7% abv -- $9</dd>
+              <dt>Devonshire Cream Ale</dt><dd>7% abv -- $10</dd>
+            </dl>
+          </section>
+          <section id="cider">
+            <h4>Cider</h4>
+            <dl>
+              <dt>Harvard 'Northern Spy' Dry Cider</dt><dd>6% abv -- $9</dd>
+              <dt>Wicked Orchards Cider</dt><dd>5% abv -- $9</dd>
+            </dl>
+          </section>
+        </section>    
+    </main>
+    <footer>
+      <section id="location">
+        <h3>Location</h3>
+        <address>
+          3928 Foghorn Alley<br>
+          Bilgewater, Masssachusetts
+        </address>
+      </section>
+      <section id="hours">
+        <table>
+          <caption>Hours</caption>
+          <tr>
+            <th scope="row">Monday</th>
+            <td>Closed</td>
+          </tr>
+          <tr>
+            <th scope="row">Tuesday</th>
+            <td><time datetime="17:00">5</time> - <time datetime="00:00">12</time></td>
+          </tr>
+          <tr>
+            <th scope="row">Wednesday</th>
+            <td><time datetime="17:00">5</time> - <time datetime="00:00">12</time></td>
+          </tr>
+          <tr>
+            <th scope="row">Thursday</th>
+            <td><time datetime="16:00">4</time> - <time datetime="02:00">2</time></td>
+          </tr>
+          <tr>
+            <th scope="row">Friday</th>
+            <td><time datetime="16:00">4</time> - <time datetime="02:00">2</time></td>
+          </tr>
+          <tr>
+            <th scope="row">Saturday</th>
+            <td><time datetime="16:00">4</time> - <time datetime="02:00">2</time></td>
+          </tr>
+          <tr>
+            <th scope="row">Sunday</th>
+            <td><time datetime="16:00">4</time> - <time datetime="23:00">11</time></td>
+          </tr>
+        </table>
+      </section>
+      <section id="phone">
+        <h3>Phone</h3>
+        <address><a href="tel:+14902013927">490-201-3927</a></address>
+      </section>
+      <section id="email">
+        <h3>Email</h3>
+        <address><a href="mailto:info@thelighthousebarma.com">info@thelighthousebarma.com</address>
+      </section>
+    </footer>
+  </body>
+</html>
